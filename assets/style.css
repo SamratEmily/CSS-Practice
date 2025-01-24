@@ -14,11 +14,22 @@
 
 .container{
     width: 150px;
-    height: 150px;
-    justify-content: space-evenly;
-    display: flex;
+    height: 100px;
+
 }
 
-.container > div {
-    background-color: aquamarine;
+.items{
+    width: 150px;
+    height: 100px;
+}
+.one{
+    background-color:rgb(219, 44, 9);
+}
+
+.two{
+    background-color: blueviolet;
+}
+
+.three{
+    background-color: green;
 }
