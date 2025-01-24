@@ -1,5 +1,7 @@
 .flex-item{
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     background-color: rgb(86, 103, 119);
 }
 
@@ -7,5 +9,16 @@
     background-color: #f1f1f1;
     margin: 10px;
     padding: 20px;
-    font-size: 30px;
+    font-size: 30px; 
+}
+
+.container{
+    width: 150px;
+    height: 150px;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.container > div {
+    background-color: aquamarine;
 }
