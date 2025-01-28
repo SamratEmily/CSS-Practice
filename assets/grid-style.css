@@ -1,0 +1,48 @@
+/* grid-style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px); /* Three columns, each 100px wide */
+    grid-template-rows: repeat(2, 100px);    /* Two rows, each 100px tall */
+    gap: 10px;                               /* Gap between grid items */
+}
+
+.grid-item {
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border: 1px solid #333;
+}
+
+/* Optional: Add some styles to differentiate the grid items */
+.item1 { background-color: #FF5733; }
+.item2 { background-color: #33FF57; }
+.item3 { background-color: #3357FF; }
+.item4 { background-color: #FF33A1; }
+.item5 { background-color: #A133FF; }
+.item6 { background-color: #33FFF5; }
+
+.grid-container {
+    /* display: grid; */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+    /* gap: 10px; */
+}
