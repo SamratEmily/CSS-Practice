@@ -4,7 +4,7 @@
 }
 .box-div{
     padding: 5px;
-    border: 1px solid salmon;
+    border: 5px solid salmon;
     margin-top: 10px;
     width: 25%;
     background-color:aqua;
@@ -28,6 +28,6 @@ h1{
 }
 
 body{
-    background-color: rgb(218, 184, 184);
+    background-color: lightblue;
     padding: 30px;
 }
