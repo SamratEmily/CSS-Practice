@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+
+    <style>
+        .box{
+            border: 2px solid sienna;
+            width: 275px;
+        }
+
+        /* .swim-container{
+            position: relative;
+        } */
+        
+        /* position never lose */
+        /* .ring{
+            position: relative;
+            left: 50px;
+            top: 40px;
+        } */
+        /* position loses */
+        /* .ring{
+            position: absolute;
+            top: 100px;
+            left: 100px;
+        } */
+       /* taking screen space*/
+        .sunglass{
+            position: fixed;
+            top: 100px;
+        }
+
+		/* clings to */
+        .sunglass{
+            position: sticky;
+            top: 100px;
+        }
+
+		.dummy{
+			padding: 50px;
+			border: 1px solid saddlebrown;
+		}
+
+    </style>
+</head>
+<body>
+	<div style="display: flex; justify-content: space-between;">
+    <h1>Your Position! </h1> 
+        <a href="index.html" style="text-decoration: none;display: flex; justify-content: center; align-content: flex-start; column-gap: 10px; color: blueviolet; font-size: 20px; margin-top: 30px;">
+            <div style='font-size:30px; '>&#8592;</div> 
+             <div style="display: flex; align-content: center; margin-top: 7px;" >Back to Home Page</div>
+        </a>
+    </div>
+    <ol>
+
+    </ol>
+
+    <div class="swim-container">
+        <div class="box boy"><img src="images/picchi.png" alt=""></div>
+        <div class="box ring"><img src="images/picchi-2.png" alt=""></div>
+        <div class="box sunglass"><img src="images/picchi-3.png" alt=""></div>
+
+        <div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        </div>
+    </div>
+</body>
+</html>
