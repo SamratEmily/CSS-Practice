@@ -27,3 +27,9 @@ h1{
 .data-2{
     background-color: blueviolet;
 }
+
+
+body{
+    background-color: lightblue;
+    padding: 30px;
+}

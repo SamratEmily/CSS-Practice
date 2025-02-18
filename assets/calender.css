@@ -30,11 +30,16 @@
 
 h1{
     color:blueviolet;
-    border: 1px solid saddlebrown;
+    border: 5px solid saddlebrown;
     /* text-align: center; */
     height: 50px;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-content: flex-end;
     font-size: 2em;
+}
+
+body{
+    background-color: lightblue;
+    padding: 30px;
 }
