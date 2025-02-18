@@ -1,35 +1,28 @@
-.flex-item{
+.content{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: rgb(86, 103, 119);
+    column-gap: 10px;
+}
+.box-div{
+    padding: 5px;
+    border: 1px solid salmon;
+    margin-top: 10px;
+    width: 25%;
+    background-color:aqua;
+    text-align: center;
 }
 
-.flex-item > div {
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px; 
+a{
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+    font-size: 2em;
 }
 
-.container{
-    width: 150px;
-    height: 100px;
-
-}
-
-.items{
-    width: 150px;
-    height: 100px;
-}
-.one{
-    background-color:rgb(219, 44, 9);
-}
-
-.two{
-    background-color: blueviolet;
-}
-
-.three{
-    background-color: green;
+h1{
+    border: 2px solid rgb(32, 44, 44);
+    width: 50%;
+    background-color: rgb(103, 153, 255);
+    color: aliceblue;
+    font-style: normal;
+    font-size: 5em;
+    text-align: center;
 }
