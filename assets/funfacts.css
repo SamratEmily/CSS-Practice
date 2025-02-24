@@ -1,0 +1,97 @@
+.main-container {
+    width: 100%;
+    display: block;
+    justify-content: center;
+    height: 100vh;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+}
+.funfacts-heading{
+    display: flex;
+    justify-content: center;
+}
+.funfacts-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* justify-content: center;  */
+}
+
+.funfacts-box-award {
+    box-sizing: border-box;
+    width: calc(40% - 20px);
+    /* width: 50%; */
+    height: 250px;
+    position: relative; 
+    background-color: rgb(79, 79, 238);
+}
+
+.funfacts-box-experience {
+    box-sizing: border-box;
+    width: calc(30% - 20px);
+    height: 250px;
+    position: relative; 
+    background-color: rgb(255, 255, 255);
+}
+.funfacts-box-back {
+    box-sizing: border-box;
+    width: calc(30% - 20px);
+    height: 250px;
+    position: relative; 
+    background-color: rgb(11, 0, 0);
+}
+
+
+.funfacts-box-image {
+    box-sizing: border-box;
+    width: calc(40% - 20px);
+    height: 250px;
+    position: relative; 
+    overflow: hidden;
+}
+
+.full-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.funfacts-image {
+    width: 60px;
+    height: 65px;
+    position: absolute;
+    top: 0; 
+    right: 10px;
+}
+
+
+.heading-1{
+    size: 48px;
+    color: aliceblue;
+    position: absolute;
+    font-weight: 700;
+    bottom: 0;
+    padding: 20px;
+}
+
+.para-1{
+    color: white;
+    size: 16px !important;
+    position: absolute;
+    bottom: 0;
+    margin-left: 20px;
+}
+
+.experience-number{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+}
+
+.para-2{
+    position: absolute;
+    bottom: 0;
+    margin-left: 20px;
+}
