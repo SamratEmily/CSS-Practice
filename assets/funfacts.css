@@ -3,24 +3,24 @@
     display: block;
     justify-content: center;
     height: 100vh;
-    /* margin-left: 100px;
-    margin-right: 100px; */
 }
-.funfacts-heading{
-    display: flex;
-    justify-content: center;
-}
+
 .funfacts-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    /* justify-content: center;  */
+    justify-content: center;
+    padding: 20px;
+}
+
+.funfacts-heading{
+    display: flex;
+    justify-content: center;
 }
 
 .funfacts-box-award {
     box-sizing: border-box;
     width: calc(40% - 20px);
-    /* width: 50%; */
     height: 250px;
     position: relative; 
     background-color: rgb(79, 79, 238);
@@ -44,10 +44,10 @@
 
 .funfacts-box-image {
     box-sizing: border-box;
+    border: none;
     width: calc(40% - 20px);
     height: 250px;
     position: relative; 
-    overflow: hidden;
 }
 
 .full-image {
@@ -99,11 +99,11 @@
 .our-values{
     display: flex;
     gap: 20px
+
 }
 
 .frist-one{
     box-sizing: border-box;
-    /* border: 1px solid salmon; */
     display: block;
     width: 50%;
     padding: 30px;
@@ -115,11 +115,102 @@
     grid-template-columns: repeat(2, 50%);
     gap: 10px;
     box-sizing: border-box;
-    /* border: 1px solid rgb(0, 0, 0); */
 }
 
 .sub-box{
     box-sizing: border-box;
-    /* border: 1px solid seagreen; */
     padding: 20px;
+}
+
+
+.sub-box p{
+    font-size: 18px; 
+    color: gray;
+}
+
+@media (max-width: 767px) {
+
+    .sub-box img{
+        width: 30px;
+        height: 30px;
+    }
+    .sub-box h1{
+        font-size: 20px;
+    }
+
+    .sub-box p{
+        font-size: 10px;
+        color: gray;
+    }
+    .funfacts-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .funfacts-heading{
+        margin-top: 20px;
+    }
+
+    .funfacts-box-award,
+    .funfacts-box-experience,
+    .funfacts-box-back,
+    .funfacts-box-image {
+        width: 90%;
+    }
+
+    .our-values {
+        flex-direction: column;
+    }
+
+    .frist-one, .second-one {
+        width: 100%; /* Full width */
+    }
+
+    .second-one {
+        grid-template-columns: 1fr; /* Single column */
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .sub-box img{
+        width: 50px;
+        height: 50px;
+    }
+    .sub-box h1{
+        font-size: 30px;
+    }
+
+    .sub-box p{
+        font-size: 20px;
+        color: gray;
+    }
+    .funfacts-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .funfacts-box-award,
+    .funfacts-box-experience,
+    .funfacts-box-back,
+    .funfacts-box-image {
+        width: 100%;
+    }
+
+    .our-values {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .frist-one {
+        width: 100%;
+    }
+
+    .second-one {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
