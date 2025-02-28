@@ -1,0 +1,152 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    padding: 20px 50px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.nav-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-1 h2 {
+    margin: 0;
+}
+
+.nav-2 {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav-2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-2 h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.welab-logo {
+    width: 36px;
+    height: 36px;
+}
+
+.start-button {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 32px;
+    background-color: black;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.start-button:hover {
+    background-color: #333;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+    gap: 20px;
+}
+
+
+.homepage-section-header h1{
+    font-size: 94px;
+    line-height: 100px;
+    font-weight: 700;
+    color: #12141D;
+}
+.homepage-section-header p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #626368;
+}
+
+.first-box {
+    /* border: 1px solid red; */
+    width: 570px;
+    height: auto;
+    padding: 20px;
+}
+
+.cta-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.cta-button {
+    background-color: #007CF5;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.cta-button:hover {
+    background-color: #007CF5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.second-box {
+    display: flex;
+    justify-content: center;
+    border: 1px solid magenta;
+    width: 617px;
+    height: auto;
+    padding: 20px;
+}
+
+.second-box img{
+    width: 262.28px;
+    height: 456.13px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
