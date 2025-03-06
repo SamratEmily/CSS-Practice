@@ -216,3 +216,26 @@
 .about-us .last-part .inner-2nd .cta-container{
     margin-top: 50px;
 }
+
+.inner-border {
+    width: 1200px;
+    margin-left: 20px;
+    height: 150px;
+    background-color: white;
+    border-top: 1px solid #C6C6C6;
+    border-bottom: 1px solid #C6C6C6;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner-border .para {
+    color: #626368;
+}
+
+.border-line{
+    border: 1px solid #C6C6C6;
+    width: 1200px;
+    margin-left: 200px;
+}

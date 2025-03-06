@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="assets/homepage.css">
+    <link rel="stylesheet" href="assets/service.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -90,10 +91,49 @@
                         </button>
                     </div>
                 </div>
-     
+            </div>
+
+            <div class="inner-border">
+                <div class="">
+                    <h1>10+</h1>
+                    <p class="para">Years of Experience</p>
+                </div>
+                <div class="">
+                    <h1>230+</h1>
+                    <p class="para">Active Customers</p>
+                </div>
+                <div class="">
+                    <h1>60+</h1>
+                    <p class="para">Team Members</p>
+                </div>
+                <div class="">
+                    <h1>500+</h1>
+                    <p class="para">Company Trusted Us</p>
+                </div>
             </div>
         </div>
-
     </section>
+
+    <section class="homepage-section-service">
+    </section>
+
+    <div class="border-line"></div>
+    <section class="homepage-section">
+        <div class="">
+            
+        </div>
+    </section>
+   
+   
+   
+   <script>
+        fetch('service.html')
+            .then(response => response.text())
+            .then(html => {
+                document.querySelector('.homepage-section-service').innerHTML = html;
+            })
+            .catch(error => console.error('Error loading the file:', error));
+    </script>
+    
 </body>
 </html>
