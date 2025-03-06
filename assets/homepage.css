@@ -234,10 +234,22 @@
     color: #626368;
 }
 
-.border-line{
+.border-line {
     border: 1px solid #C6C6C6;
     width: 1200px;
     margin-left: 200px;
+}
+
+.homepage-section-service{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.block-container-home-page{
+    /* display: flex; */
+
 }
 
 .step {
@@ -341,6 +353,33 @@
     padding: 0px;
 }
 
+.homepage-section-team-member{
+    background-color: black;
+    height: 1290px;
+    width: 1600px;
+    top: 850px;
+    color: white;
+}
+.content-team-member{
+    margin-left: 200px;
+    margin-right: 150px;
+    width: 1170px;
+    padding: 20px;
+    gap: 100px;
+}
+
+.content-team-member h1{
+    box-sizing: content-box;
+    width: 400px;
+    padding: 20px;
+    padding-left: 0px;
+    font-size: 60px;
+    
+}
+.content-team-member .meet-button{
+    display: flex;
+    justify-content: space-between;
+}
 
 .container-work-process .first{
     width: calc(40% - 20px);
@@ -354,4 +393,50 @@
 .container-work-process .second-box img{
     width: 670px;
     height: 500px;
+}
+
+.team-member-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    row-gap: 100px;
+}
+
+.service-header{
+    box-sizing: content-box;
+    width: 600px !important;
+}
+
+.story-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    margin-top: 40px;
+}
+
+.container-story{
+    width: 1170px;
+    margin-left: 200px;
+}
+
+.dot-story{
+    display: flex; 
+    justify-content: center;
+
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+}
+
+.blog-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+
+    column-gap: 30px;
+}
+
+.half-line{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #C6C6C6;
+    width: 575px;
+    /* margin-left: 200px; */
 }
