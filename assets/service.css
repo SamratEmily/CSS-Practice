@@ -1,13 +1,17 @@
 .page-container {
-    height: 100vh;
-    background-color: #f8f8f8;
     padding: 20px;
     border-radius: 10px;
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 200px;
 }
 
 .service-page {
+    width: 1200px;
     display: flex;
     justify-content: center;
+    margin-left: 200px;
+
 }
 
 .service-header {
@@ -21,14 +25,13 @@
 
 .block-container {
     display: grid;
-    grid-template-columns: repeat(3, 300px);
-    gap: 15px;
-    justify-content: center;
+    grid-template-columns: repeat(3, 33.33%);
+    gap: 20px;
+    justify-content: space-between;
 }
 
 .block-box {
     box-sizing: border-box;
-    width: 300px;
     max-width: 370px;
     height: 250px;
     border: 1px solid #C6C6C6;
@@ -53,6 +56,11 @@
     size: 10px;
 }
 
+.button-class-upper{
+    width: 1200px;
+    margin-left: 200px;
+    margin-bottom: 40px;
+}
 .button-class{
     display: flex;
     justify-content: center;
